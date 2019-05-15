@@ -632,10 +632,4 @@ RCT_EXPORT_METHOD(emitExpiredEvent:(RCTResponseSenderBlock)callback)
     [RNFetchBlobNetwork emitExpiredTasks];
 }
 
-+ (BOOL)requiresMainQueueSetup
-{
-    return YES;
-}
-
-
 @end
